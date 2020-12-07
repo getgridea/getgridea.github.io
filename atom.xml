@@ -2,11 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id/>
     <title>Gridea Blog</title>
-    <updated>2020-12-07T07:51:35.736Z</updated>
+    <updated>2020-12-07T07:55:49.770Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="self" href="atom.xml"/>
     <subtitle>Love Blog, Love Gridea</subtitle>
     <logo>images/avatar.png</logo>
     <icon>https://static.gridea.dev/gridea/IjklZQ0H0.png</icon>
     <rights>All rights reserved 2020, Gridea Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[如何使用 GitHub Pages 托管网站]]></title>
+        <id>https:///github-pages-with-gridea</id>
+        <link href="https:///github-pages-with-gridea"/>
+        <updated>2020-12-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本文是关于使用 GitHub Pages + Gridea (Web) 部署网站的教程。全程无需编程或写代码，所以无论你是从事什么行业都可以跟随此教程部署一个自己的网站。
+1. 第一步：注册 GitHub 账号
+注册一个 Github 账号...]]></summary>
+        <content type="html"><![CDATA[<p>本文是关于使用 GitHub Pages + Gridea (Web) 部署网站的教程。全程无需编程或写代码，所以无论你是从事什么行业都可以跟随此教程部署一个自己的网站。</p>
+<p><strong>1. 第一步：注册 GitHub 账号</strong><br>
+<a href="http://github.com">注册</a>一个 Github 账号，用于登录 GitHub，以使用 GitHub 仓库功能</p>
+<p><strong>2. 第二步：创建仓库</strong></p>
+<blockquote>
+<p>仓库是用来存储网站静态文件的，如 HTML 文件</p>
+</blockquote>
+<p>登录 GitHub，然后点击右上角的加号或点击<a href="https://github.com/new">此链接</a>创建一个仓库名为<code>[你的用户名].github.io]</code>的仓库</p>
+<p>例如你的用户名为<code>Xiaoming</code>，则仓库名为<code>Xiaoming.github.io</code>，<strong>注意仓库名中的<code>.github.io</code>后缀</strong></p>
+<blockquote>
+<p>注意：仓库类型需为 <strong>Public</strong></p>
+</blockquote>
+<p>具体可参见图片：</p>
+<p>// TODO: 插图</p>
+<p>创建成功后，复制浏览器地址栏的仓库 URL 到本地，稍后将在 Gridea 配置中使用。</p>
+<p>// TODO: 插图</p>
+<p><strong>3. 第三步：创建 Token</strong></p>
+<blockquote>
+<p>Token 是用来推送网站文件到仓库的</p>
+</blockquote>
+<p>点击此<a href="https://github.com/settings/tokens/new">链接</a>进行个人访问令牌(Personal access token)的创建。权限只需要勾选 <strong>repo</strong> 中的 <strong>public_repo</strong> 即可。</p>
+<p>具体可参见图片：</p>
+<p>// TODO: 插图</p>
+<p>创建成功后，复制令牌（Token）到本地，稍后将在 Gridea 配置中使用。</p>
+<blockquote>
+<p>注意：令牌（Token）只在创建成功时显示一次，所以尽快复制到本地</p>
+</blockquote>
+<p><strong>4. 第四步：配置 Gridea</strong><br>
+打开你的 Gridea 后台，将仓库 URL和令牌<br>
+填入，然后点击检查连接并保存。当看到成功的提示时，说明你已经配置完成。</p>
+<p><strong>5. 第五步：发布</strong><br>
+发布之前，你需要写至少一篇文章，去写一篇</p>
+]]></content>
+    </entry>
 </feed>
